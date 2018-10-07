@@ -1,0 +1,29 @@
+body{ margin:0; }
+
+.bus{    float: none;
+    width: 400px;
+    margin: 50px auto;}
+
+.Seats{
+        width: 61px;
+    height: 60px;
+    left: 20px;
+    background: url(./sheet.png) -60px 0;
+    float: left;
+    
+  margin:10px;
+}
+.selectedSeats{
+        width: 61px;
+    height: 60px;
+    left: 0px;
+     /*background:red;*/
+     background: url(./sheet.png) 0 0; 
+    float: left;
+  margin:10px;
+}
+
+.bus_btn{float: none;
+width: 400px;
+text-align: center;
+padding: 15px;}
